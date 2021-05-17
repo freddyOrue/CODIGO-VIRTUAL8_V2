@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Dancing-Semi-bold';
+    src: url('../assets/fonts/Dancing_Script/static/DancingScript-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'Ubuntu-Bold';
+    src: url('.. //assets/fonts/Ubuntu/Ubuntu-Bold.ttf');
+}

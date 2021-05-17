@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.header {
+    height: 60px;
+    border: 1px solid black;
+    display: flex;
+    padding: 0 2rem;
+}
+
+.header__nav {
+    flex: 1;
+    background-color: aqua;
+}
+
+.header__cart {
+    background-color: brown;
+}
+
+.header__links {
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}

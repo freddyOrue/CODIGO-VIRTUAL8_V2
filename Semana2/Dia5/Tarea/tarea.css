@@ -1,0 +1,126 @@
+                                                            @import "./fonts_tarea.css";
+                                                            * {
+                                                                margin: 0;
+                                                                padding: 0;
+                                                                box-sizing: border-box;
+                                                            }
+                                                            
+                                                            body {
+                                                                font-family: "Comissioner";
+                                                                /* background-color: blue;*/
+                                                                /* color: white;*/
+                                                            }
+                                                            
+                                                            .container {
+                                                                position: relative;
+                                                                height: 50vh;
+                                                                overflow: hidden;
+                                                                /* width: 100%;*/
+                                                                /* margin-top: 0;*/
+                                                            }
+                                                            
+                                                            .container:before {
+                                                                background-image: url(./assets_tarea/imagenes/image-hero-desktop.jpg);
+                                                                background-repeat: no-repeat;
+                                                                background-position: right center;
+                                                                background-size: cover;
+                                                                content: "";
+                                                                /*CONTENT selogró mostrar la imagen de fondo / afirma que va haber algo en este espacio */
+                                                                transform: scale(1.0);
+                                                                position: absolute;
+                                                                z-index: -1;
+                                                                width: 100%;
+                                                                height: 100%;
+                                                            }
+                                                            
+                                                            nav {
+                                                                align-items: center;
+                                                                display: flex;
+                                                                justify-content: space-between;
+                                                                justify-items: center;
+                                                                margin: 0% 15% 5% 10%;
+                                                            }
+                                                            
+                                                            .menu {
+                                                                display: flex;
+                                                                list-style-type: none;
+                                                                align-items: center;
+                                                            }
+                                                            
+                                                            a {
+                                                                color: #F7F9F9;
+                                                                text-decoration: none;
+                                                            }
+                                                            
+                                                            .menu .nav__item {
+                                                                margin: 35% 10% 10% 5%;
+                                                                display: flex;
+                                                            }
+                                                            
+                                                            .container__content {
+                                                                text-align: center;
+                                                            }
+                                                            
+                                                            .container__content * {
+                                                                margin: 15px;
+                                                            }
+                                                            
+                                                            .btn__primary {
+                                                                font-family: "Comissioner";
+                                                                background-color: hsl(176, 50%, 47%);
+                                                                border: none;
+                                                                color: #fff;
+                                                                border-radius: 22px;
+                                                                padding: 15px;
+                                                                padding-right: 30px;
+                                                                padding-left: 30px;
+                                                            }
+                                                            
+                                                            .btn__primary:hover {
+                                                                transform: scale(1.2);
+                                                                transition: all 0.5;
+                                                            }
+                                                            
+                                                            .btn__secundary {
+                                                                font-family: "Comissioner";
+                                                                background-color: hsl(0, 11%, 87%);
+                                                                border: none;
+                                                                color: hsl(0, 0%, 0%);
+                                                                border-radius: 22px;
+                                                                padding: 15px;
+                                                                padding-right: 30px;
+                                                                padding-left: 30px;
+                                                            }
+                                                            
+                                                            .btn__secundary:hover {
+                                                                transform: scale(1.2);
+                                                                transition: all 0.5;
+                                                            }
+                                                            
+                                                            .contenido_B {
+                                                                margin-top: -100px;
+                                                                margin-left: auto;
+                                                                margin-right: auto;
+                                                                display: flex;
+                                                                /*xx*/
+                                                                height: 400px;
+                                                                width: 1080px;
+                                                                margin-bottom: 60px;
+                                                                border-radius: 15px;
+                                                                background-color: #fff;
+                                                                border: 1px solid hsl(0, 11%, 87%)
+                                                            }
+                                                            
+                                                            .contenido_C {
+                                                                margin-top: -100px;
+                                                                margin-left: auto;
+                                                                margin-right: auto;
+                                                                display: flex;
+                                                                /*xx*/
+                                                                height: 400px;
+                                                                width: 1080px;
+                                                                margin-bottom: 60px;
+                                                                border-radius: 15px;
+                                                                background-color: #fff;
+                                                                border: 1px solid hsl(0, 11%, 87%)
+                                                            }

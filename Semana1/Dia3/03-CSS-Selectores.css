@@ -1,0 +1,9 @@
+/*
+H2 selecciona a todos los H2 de la página
+*/
+
+h2{ 
+    color: crimson;
+}
+/* p,h1 =>todos los parrafos y la etiqueta h1 *
+p,h1 ^^

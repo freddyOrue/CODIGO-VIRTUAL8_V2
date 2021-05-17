@@ -1,0 +1,13 @@
+{
+    "Estilos Generales": {
+        "prefix": "cssgral",
+        "body": [
+            "*{",
+            "margin:0;",
+            "box-sizing:border-box;",
+            "padding:0;",
+            "}"
+        ],
+        "description": "Colocar los estilos de reseteo de una web"
+    }
+}

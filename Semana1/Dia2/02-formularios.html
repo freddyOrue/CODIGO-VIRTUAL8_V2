@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form>div {
+          margin-bottom: 8px;
+        }
+      </style>
+
+
+</head>
+<body>
+    <header>
+        <h1>Formularios en HTML</h1>
+    </header>
+
+    <main>
+
+        <form>
+            <div>
+                <label for="nombre"> Nombre: </label>
+                <input type="text" id="nombre"
+                      placeholder="Ejm: Diana"/>
+            </div>
+
+            <div>
+                <label for="apellido"> Apellido: </label>
+                <input type="text" id="apellido" placeholder="Ejm: Ramirez" />
+            </div>
+
+            <div>
+                <label for=""> Edad: </label>
+                <input type="number" id="Edad" placeholder="Ejm: 18" />
+            </div>
+
+            <div>
+                <label for="email"> Correo Electrónico: </label>
+                <input type="email" id="Correo" placeholder="coders@codigo.com" />
+            </div>
+
+            <div>
+                <label for="Fecha"> Fecha de Matricula: </label>
+                <input type="date" id="Fecha" min="2021-05-03"  />
+            </div>
+
+           
+            <div>
+                <label for="BOOTCAMP">  SELECCIONE BOOTCAMP </label>
+                <select id="BOOTCAMP"> 
+                    <option value="web"> Desarrollo FullStack </option>
+                    <option value="mkt"> Marketing Digital </option>
+                    <option value="apps"> Desarrollo de Aplicaciones Móviles </option>
+                                   
+                </select>
+              
+            </div>
+
+            <hr />
+        
+
+            <div>
+                <label for"Mensaje"> Mensaje al Profesor     </label>
+                <textarea id="Mensaje" cols="30"  rows="10" >       </textarea>
+
+            </div>
+
+            <hr />
+        
+
+            <div>
+                <label for""> Escoja su Turno    </label>
+                <br />
+                <label for="Día"> Día </label>
+                <input type="radio" id="Día" name="turno">
+                <br />
+                <label for="noche"> Noche </label>
+                <input type="radio" id="noche" name="turno"> 
+            </div>
+
+
+            <hr />
+            <div>
+                <fieldset>
+
+                
+                <legend>Seleccione equipos a utilizar  </legend>
+                <br>
+                <label for="Audios"> Audifonos    </label>
+                <input type="checkbox" id="Audios">
+
+                <br>
+                <label for="laptop"> Laptop    </label>
+                <input type="checkbox" id="laptop" checked>
+
+                <br>
+                <label for="mouse"> Mouse    </label>
+                <input type="checkbox" id="mouse">
+
+            </fieldset>
+            </div>
+
+            <div>
+                <label for="color"> SELECCIONE COLOR  </label>
+                <input type="color" id="color">
+            </div>
+
+            <div>
+                <button type="submit">GUARDAR</button>
+                <button type="button">CONSULTAR DNI</button>
+                <button type="reset">LIMPIAR FORMULARIO</button>
+            </div>
+
+
+        </form>
+
+    </main>
+
+ </body>
+</html>

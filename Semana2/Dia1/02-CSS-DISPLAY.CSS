@@ -1,0 +1,35 @@
+        * {
+            margin: 0;
+            box-sizing: border-box;
+            padding: 0;
+        }
+        
+        header {
+            height: 60px;
+            box-shadow: 0px 0px 8px#bbb;
+        }
+        
+        .color-primario {
+            color: #a11477;
+        }
+        
+        .navegacion {
+            display: none;
+        }
+        
+        aside {
+            /*calc() sirve para realizar operaciones con diferentes unidades de medida y poder hacer calculos */
+            height: calc(100vh -60px);
+            background-color: #a11477;
+        }
+        
+        section,
+        aside {
+            display: inline-block;
+        }
+        
+        section {
+            background-color: #7269c8;
+            width: calc(100% -240px);
+            height: calc(100vh -60px);
+        }

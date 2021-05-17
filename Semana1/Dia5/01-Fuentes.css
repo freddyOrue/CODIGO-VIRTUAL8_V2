@@ -1,0 +1,93 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+*{
+    margin: 0;
+}
+@font-face {
+    font-family: 'miPrimeraFuente';
+    src: url('../FuentesGlobales/DancingScript-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'mifuenteMedium';
+    src: url(../FuentesGlobales/Montserrat-Bold.ttf);
+}
+
+h1,h2{
+    font-family: "Lobster&display";
+    color: #41A2E1;
+    src: url(../FuentesGlobales/Montserrat-Medium.ttf);
+}
+
+.descripcion{
+    font-family: "Pacifico&display";
+    font-size: 12px;
+    width: 200px;
+    height: 80px;
+    overflow: scroll;
+    
+
+    src:url(../FuentesGlobales/Montserrat-Regular.ttf)
+   
+}
+
+.segundo_titulo {
+    font-family:'Lobster&display' ;
+    font-family: 'Pacifico&display';
+}
+
+.fuenteLink ::first-letter{
+    font: size 78px;  ;
+    }
+
+
+ .fuenteLink {
+        font-family:'Dancing+Script:wght@500&display' ;
+        border: 1pxs solid #c00;
+        background: linear-gradient (RIGTH,#1A98EF, #EF1AED);
+        }
+
+a{
+    background-color: #c00;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 6px;
+    font-family: "miPrimeraFuente";
+}
+a:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #c00;
+
+}
+
+.PORTADA_FLS{
+    background-image: url(../iMAGENES/download.jfif);
+    opacity: (1);
+    background-position: center;
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    height: 500px;
+}
+
+.alto_total {
+
+    height: 100vh;
+}
+
+.btn_iniciar_session {
+    margin-top: 30px;
+    font-family: "";
+
+}
+
+.cuarto_parrafo{
+
+}
